@@ -21,7 +21,7 @@ proc finish {} {
 
 
 
-#Create four nodes
+#Create six nodes
 for {set i 0} {$i < 7} {incr i} {
         set n($i) [$ns node]
 }
